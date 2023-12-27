@@ -32,7 +32,9 @@ namespace GroupWork_102
                     savings -= 1;
                 }
                 else
-                { savings += unit / 10; }
+                { 
+                    savings += unit / 10; 
+                }
             }
 
             int toys = age / 2 + age % 2;
@@ -49,9 +51,10 @@ namespace GroupWork_102
             {
                 Console.WriteLine($"\nNo! {Math.Abs(remaining):F2}");
             }
-
+            
             Console.ReadKey(true);
             Run.MainMenu();
+
         }
     }
 }
